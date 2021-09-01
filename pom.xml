@@ -37,6 +37,9 @@
     <developer>
       <id>xwiki-labs</id>
       <name>XWiki Labs</name>
+      <url>https://github.com/orgs/xwiki-labs/people</url>
+      <organization>XWiki SAS</organization>
+      <organizationUrl>https://xwiki.com</organizationUrl>
     </developer>
   </developers>
   <licenses>
