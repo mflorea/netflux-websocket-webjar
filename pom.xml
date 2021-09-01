@@ -55,6 +55,14 @@
     <developerConnection>scm:git:https://github.com/webjars/${project.artifactId}-webjar.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>es6-promise</artifactId>
+      <version>4.2.8</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
@@ -86,6 +94,29 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>com.google.code.maven-replacer-plugin</groupId>
+        <artifactId>replacer</artifactId>
+        <version>1.5.3</version>
+        <executions>
+          <execution>
+            <id>fix-paths</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>replace</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <file>${extractDir}/netflux-client.js</file>
+          <replacements>
+            <replacement>
+              <token>/bower_components/es6-promise/es6-promise.min.js</token>
+              <value>es6-promise</value>
+            </replacement>
+          </replacements>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>com.github.blutorange</groupId>
