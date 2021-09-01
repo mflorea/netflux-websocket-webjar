@@ -1,2 +1,3 @@
-# netflux-websocket-webjar
-WebJar for Netflux WebSocket
+# Netflux WebSocket WebJar
+
+WebJar packaging for Netflux WebSocket.
