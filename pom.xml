@@ -23,7 +23,7 @@
   <packaging>jar</packaging>
   <artifactId>netflux-websocket-webjar</artifactId>
   <version>0.1.21-SNAPSHOT</version>
-  <name>Netflux WebSocket</name>
+  <name>Netflux WebSocket WebJar</name>
   <description>WebJar packaging for Netflux WebSocket</description>
   <url>https://github.com/xwiki-labs/netflux-websocket</url>
   <properties>
