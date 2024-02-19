@@ -18,14 +18,14 @@
   <parent>
     <groupId>org.xwiki.contrib</groupId>
     <artifactId>parent-commons</artifactId>
-    <version>13.7</version>
+    <version>14.10</version>
   </parent>
   <packaging>jar</packaging>
   <artifactId>netflux-websocket-webjar</artifactId>
   <version>1.1.0-SNAPSHOT</version>
   <name>Netflux WebSocket WebJar</name>
   <description>WebJar packaging for Netflux WebSocket</description>
-  <url>https://github.com/xwiki-labs/netflux-websocket</url>
+  <url>https://github.com/cryptpad/netflux-websocket</url>
   <properties>
     <upstream.artifactId>netflux-websocket</upstream.artifactId>
     <upstream.url>https://registry.npmjs.org/${upstream.artifactId}/-/${upstream.artifactId}-${version.unsnapshot}.tgz</upstream.url>
@@ -34,17 +34,17 @@
   </properties>
   <developers>
     <developer>
-      <id>xwiki-labs</id>
-      <name>XWiki Labs</name>
-      <url>https://github.com/orgs/xwiki-labs/people</url>
+      <id>cryptpad</id>
+      <name>XWiki CryptPad Team</name>
+      <url>https://github.com/orgs/cryptpad/people</url>
       <organization>XWiki SAS</organization>
       <organizationUrl>https://xwiki.com</organizationUrl>
     </developer>
   </developers>
   <licenses>
     <license>
-      <name>AGPL-3.0+</name>
-      <url>https://github.com/xwiki-labs/${upstream.artifactId}/blob/main/LICENSE</url>
+      <name>LGPL-2.1</name>
+      <url>https://github.com/cryptpad/${upstream.artifactId}/blob/main/LICENSE</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
